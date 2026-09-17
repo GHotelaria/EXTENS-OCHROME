@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Passagem de Turno Gmail",
+  "version": "1.0",
+  "description": "Preenche automaticamente os e-mails de passagem de turno.",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
