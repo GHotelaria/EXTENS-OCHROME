@@ -76,7 +76,7 @@ corpo.dispatchEvent(new Event("input", { bubbles: true }));
 
     if (para && para.value === "") {
         para.value =
-        "recepcaocentroclass@gmail.com, recepcaocasacentro@gmail.com, sup.ghotelaria@gmail.com,sup2.ghotelaria@gmail.com";
+        "recepcaocentroclass@gmail.com, recepcaocasacentro@gmail.com, sup2.ghotelaria@gmail.com, sup.ghotelaria@gmail.com";
 
         para.dispatchEvent(new Event("input", { bubbles: true }));
     }
